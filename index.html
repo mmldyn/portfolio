@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loading...</title>
+  <link rel="icon" type="image/png" href="eyes.png" />
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #f5f5f5;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .image-wrapper {
+      position: relative;
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+      z-index: 1;
+    }
+
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .top-mask, .bottom-mask {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background-color: #f5f5f5;
+      z-index: 2;
+    }
+
+    .top-mask {
+      top: -50%;
+      animation: topCover 1s ease forwards 4s;
+    }
+
+    .bottom-mask {
+      bottom: -50%;
+      animation: bottomCover 1s ease forwards 4s;
+    }
+
+    @keyframes topCover {
+      to {
+        top: 0;
+      }
+    }
+
+    @keyframes bottomCover {
+      to {
+        bottom: 0;
+      }
+    }
+
+    .loading-bar-container {
+      position: relative;
+      width: 200px;
+      height: 10px;
+      background-color: #ddd;
+      border-radius: 2px;
+      overflow: hidden;
+      z-index: 3;
+    }
+
+    .loading-bar {
+      height: 100%;
+      width: 0;
+      background-color: black;
+      animation: load 4s linear forwards;
+    }
+
+    .bar-mask-left, .bar-mask-right {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 50%;
+      background-color: #f5f5f5;
+      z-index: 4;
+    }
+
+    .bar-mask-left {
+      left: -50%;
+      animation: barLeftCover 1s ease forwards 4s;
+    }
+
+    .bar-mask-right {
+      right: -50%;
+      animation: barRightCover 1s ease forwards 4s;
+    }
+
+    @keyframes barLeftCover {
+      to {
+        left: 0;
+      }
+    }
+
+    @keyframes barRightCover {
+      to {
+        right: 0;
+      }
+    }
+
+    @keyframes load {
+      from { width: 0%; }
+      to { width: 100%; }
+    }
+  </style>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "lpage.html";
+    }, 5000);
+  </script>
+</head>
+<body>
+
+  <div class="image-wrapper">
+    <img src="giphy.gif" alt="Gambarku" />
+    <div class="top-mask"></div>
+    <div class="bottom-mask"></div>
+  </div>
+
+  <div class="loading-bar-container">
+    <div class="loading-bar"></div>
+    <div class="bar-mask-left"></div>
+    <div class="bar-mask-right"></div>
+  </div>
+
+</body>
+</html>
