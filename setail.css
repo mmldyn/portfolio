@@ -1,0 +1,1025 @@
+.slide {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .slide .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1080px;
+    height: 3256px;
+    position: relative;
+  }
+  
+  .slide .overlap {
+    position: absolute;
+    width: 1080px;
+    height: 570px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/image.png);
+    background-size: 100% 100%;
+  }
+  
+  .slide .rectangle {
+    position: absolute;
+    width: 1080px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    background-color: #d4d4d41a;
+    border-radius: 15px;
+    border: none;
+    backdrop-filter: blur(2px) brightness(100%);
+    -webkit-backdrop-filter: blur(2px) brightness(100%);
+  }
+  
+  .slide .rectangle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px;
+    border-radius: 15px;
+    background: linear-gradient(
+      179deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .slide .text-wrapper {
+    position: absolute;
+    top: 282px;
+    left: 391px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .TIME-CHECK {
+    position: absolute;
+    top: 19px;
+    left: 24px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .span {
+    font-weight: 700;
+  }
+  
+  .slide .text-wrapper-2 {
+    font-family: "Helvetica-Regular", Helvetica;
+  }
+  
+  .slide .text-wrapper-3 {
+    position: absolute;
+    top: 19px;
+    left: 474px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .navbar {
+    position: absolute;
+    width: 292px;
+    height: 13px;
+    top: 21px;
+    left: 767px;
+  }
+  
+  .slide .text-wrapper-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-5 {
+    left: 77px;
+    position: absolute;
+    top: 0;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-6 {
+    left: 129px;
+    position: absolute;
+    top: 0;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-7 {
+    left: 231px;
+    position: absolute;
+    top: 0;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .overlap-group {
+    position: absolute;
+    width: 1269px;
+    height: 789px;
+    top: 2540px;
+    left: -149px;
+  }
+  
+  .slide .mask-group {
+    position: absolute;
+    width: 1080px;
+    height: 716px;
+    top: 0;
+    left: 149px;
+  }
+  
+  .slide .rectangle-2 {
+    position: absolute;
+    width: 1218px;
+    height: 437px;
+    top: 262px;
+    left: 26px;
+    background-color: #d4d4d41a;
+    border-radius: 15px;
+    border: none;
+    transform: rotate(-171.38deg);
+    backdrop-filter: blur(2px) brightness(100%);
+    -webkit-backdrop-filter: blur(2px) brightness(100%);
+  }
+  
+  .slide .rectangle-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px;
+    border-radius: 15px;
+    background: linear-gradient(
+      179deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .slide .text-wrapper-8 {
+    position: absolute;
+    top: 412px;
+    left: 623px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-9 {
+    position: absolute;
+    top: 654px;
+    left: 646px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .ORGANIZATION {
+    position: absolute;
+    width: 930px;
+    height: 263px;
+    top: 14px;
+    left: 223px;
+  }
+  
+  .slide .overlap-2 {
+    position: relative;
+    width: 924px;
+    height: 263px;
+  }
+  
+  .slide .rectangle-3 {
+    position: absolute;
+    width: 924px;
+    height: 236px;
+    top: 27px;
+    left: 0;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .rectangle-4 {
+    position: absolute;
+    width: 924px;
+    height: 236px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 12px 0px 0px 0px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .p {
+    position: absolute;
+    width: 391px;
+    top: 22px;
+    left: 278px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .basketball-court {
+    position: absolute;
+    width: 642px;
+    top: 64px;
+    left: 267px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .whatsapp-image {
+    position: absolute;
+    width: 236px;
+    height: 206px;
+    top: 17px;
+    left: 17px;
+  }
+  
+  .slide .text-wrapper-10 {
+    position: absolute;
+    top: 242px;
+    left: 17px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .SOCIAL-MEDIA {
+    position: absolute;
+    width: 399px;
+    height: 76px;
+    top: 452px;
+    left: 489px;
+  }
+  
+  .slide .mdi-github {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 3px;
+    left: 252px;
+  }
+  
+  .slide .mage-behance {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .slide .ic-round-email {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    top: 0;
+    left: 81px;
+  }
+  
+  .slide .mage-linkedin {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 3px;
+    left: 334px;
+  }
+  
+  .slide .ri-instagram-fill {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 5px;
+    left: 174px;
+  }
+  
+  .slide .SECTION-WHO-AM-i {
+    position: absolute;
+    width: 877px;
+    height: 290px;
+    top: 631px;
+    left: 114px;
+  }
+  
+  .slide .overlap-group-2 {
+    position: absolute;
+    width: 243px;
+    height: 53px;
+    top: 4px;
+    left: 310px;
+  }
+  
+  .slide .hi-im-zidan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-11 {
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  
+  .slide .text-wrapper-12 {
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .slide .text-wrapper-13 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .based-on-indonesia {
+    position: absolute;
+    top: 14px;
+    left: 711px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-14 {
+    position: absolute;
+    width: 543px;
+    top: 66px;
+    left: 310px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-15 {
+    position: absolute;
+    width: 76px;
+    top: 126px;
+    left: 308px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-16 {
+    position: absolute;
+    width: 128px;
+    top: 234px;
+    left: 309px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .SMA-negeri {
+    position: absolute;
+    width: 321px;
+    top: 148px;
+    left: 308px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-17 {
+    position: absolute;
+    width: 84px;
+    top: 156px;
+    left: 769px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-18 {
+    position: absolute;
+    width: 84px;
+    top: 196px;
+    left: 769px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .universitas {
+    position: absolute;
+    width: 321px;
+    top: 191px;
+    left: 308px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .basic-photography-by {
+    position: absolute;
+    width: 403px;
+    top: 256px;
+    left: 308px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .IMG {
+    position: absolute;
+    width: 323px;
+    height: 319px;
+    top: -12px;
+    left: -16px;
+  }
+  
+  .slide .overlap-3 {
+    position: absolute;
+    width: 87px;
+    height: 29px;
+    top: 258px;
+    left: 766px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .mingcute-link-fill {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 7px;
+    left: 17px;
+  }
+  
+  .slide .text-wrapper-19 {
+    position: absolute;
+    top: 5px;
+    left: 38px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .HISTORY {
+    position: absolute;
+    width: 1032px;
+    height: 559px;
+    top: 1140px;
+    left: 24px;
+  }
+  
+  .slide .overlap-4 {
+    position: absolute;
+    width: 304px;
+    height: 360px;
+    top: 62px;
+    left: 0;
+    border-radius: 15px;
+  }
+  
+  .slide .SKILLS {
+    position: absolute;
+    width: 278px;
+    height: 328px;
+    top: 13px;
+    left: 14px;
+  }
+  
+  .slide .overlap-group-3 {
+    position: relative;
+    width: 274px;
+    height: 328px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .img {
+    position: absolute;
+    width: 258px;
+    height: 231px;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .slide .text-wrapper-20 {
+    position: absolute;
+    width: 157px;
+    top: 246px;
+    left: 11px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .director {
+    position: absolute;
+    width: 128px;
+    top: 265px;
+    left: 7px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .rectangle-5 {
+    position: absolute;
+    width: 304px;
+    height: 360px;
+    top: 0;
+    left: 0;
+    background-color: #d4d4d41a;
+    border-radius: 15px;
+    border: none;
+    backdrop-filter: blur(1px) brightness(100%);
+    -webkit-backdrop-filter: blur(1px) brightness(100%);
+  }
+  
+  .slide .rectangle-5::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px;
+    border-radius: 15px;
+    background: linear-gradient(
+      179deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .slide .overlap-wrapper {
+    position: absolute;
+    width: 402px;
+    height: 477px;
+    top: 0;
+    left: 317px;
+  }
+  
+  .slide .overlap-5 {
+    position: relative;
+    width: 398px;
+    height: 477px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .IMG-2 {
+    position: absolute;
+    width: 375px;
+    height: 336px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .slide .text-wrapper-21 {
+    top: 358px;
+    left: 18px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .sound-designer-sound {
+    top: 393px;
+    left: 10px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 11px;
+    position: absolute;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .overlap-6 {
+    position: absolute;
+    width: 304px;
+    height: 360px;
+    top: 57px;
+    left: 728px;
+    border-radius: 15px;
+  }
+  
+  .slide .overlap-group-wrapper {
+    position: absolute;
+    width: 275px;
+    height: 325px;
+    top: 18px;
+    left: 16px;
+  }
+  
+  .slide .overlap-7 {
+    position: relative;
+    width: 271px;
+    height: 325px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .IMG-3 {
+    position: absolute;
+    width: 255px;
+    height: 229px;
+    top: 6px;
+    left: 6px;
+  }
+  
+  .slide .text-wrapper-22 {
+    position: absolute;
+    width: 209px;
+    top: 242px;
+    left: 12px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .ebetta-chief {
+    position: absolute;
+    width: 202px;
+    top: 267px;
+    left: 6px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .group {
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    top: 517px;
+    left: 462px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .group-2 {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    top: 11px;
+    left: 14px;
+  }
+  
+  .slide .group-wrapper {
+    position: absolute;
+    width: 50px;
+    height: 42px;
+    top: 517px;
+    left: 519px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+    transform: rotate(180deg);
+  }
+  
+  .slide .group-3 {
+    position: absolute;
+    width: 20px;
+    height: 17px;
+    top: 12px;
+    left: 14px;
+    transform: rotate(-180deg);
+  }
+  
+  .slide .text-wrapper-23 {
+    position: absolute;
+    top: 1045px;
+    left: 429px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-24 {
+    position: absolute;
+    top: 1821px;
+    left: 399px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .text-wrapper-25 {
+    position: absolute;
+    top: 2492px;
+    left: 412px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .slide .VIDEOS {
+    top: 1910px;
+    left: 54px;
+    position: absolute;
+    width: 305px;
+    height: 205px;
+  }
+  
+  .slide .overlap-8 {
+    position: relative;
+    width: 301px;
+    height: 205px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .slide .rectangle-6 {
+    position: absolute;
+    width: 284px;
+    height: 164px;
+    top: 8px;
+    left: 8px;
+    background-color: #d9d9d9;
+    border-radius: 6px;
+  }
+  
+  .slide .div-2 {
+    position: absolute;
+    top: 178px;
+    left: 8px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .text-wrapper-26 {
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    letter-spacing: 0;
+  }
+  
+  .slide .mar {
+    position: absolute;
+    top: 178px;
+    left: 267px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .div-wrapper {
+    top: 1910px;
+    left: 385px;
+    position: absolute;
+    width: 305px;
+    height: 205px;
+  }
+  
+  .slide .mar-2 {
+    position: absolute;
+    top: 178px;
+    left: 271px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .VIDEOS-2 {
+    top: 1910px;
+    left: 716px;
+    position: absolute;
+    width: 305px;
+    height: 205px;
+  }
+  
+  .slide .sep {
+    position: absolute;
+    top: 178px;
+    left: 266px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .VIDEOS-3 {
+    top: 2139px;
+    left: 223px;
+    position: absolute;
+    width: 305px;
+    height: 205px;
+  }
+  
+  .slide .jul {
+    position: absolute;
+    top: 178px;
+    left: 274px;
+    font-family: "Helvetica-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 8px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .slide .VIDEOS-4 {
+    top: 2139px;
+    left: 555px;
+    position: absolute;
+    width: 305px;
+    height: 205px;
+  }
+  
